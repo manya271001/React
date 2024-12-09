@@ -1,5 +1,6 @@
 import Head from "./Header"
 import Hero from './Hero'
+import Event from './Event'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
   <Head/>
   <Hero/>
+  <Event/>
     </>
   )
 }

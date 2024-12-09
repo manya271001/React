@@ -1,7 +1,7 @@
 const Nav=()=>{
     return(
         <>
-        <nav className="Navbar">
+        <nav id="Navbar">
             <h1>LoGo</h1>
             <ul>
                 <li>home</li>
