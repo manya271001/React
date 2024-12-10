@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(246, 239, 226);
+}
+#firstnav{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+#firstnav nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 90px;
+    color: gray;
+}

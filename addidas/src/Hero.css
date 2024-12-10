@@ -1,0 +1,32 @@
+#hero{
+    display: flex;
+    gap: 150px;
+}
+#hero #left{
+    display: flex;
+    flex-direction: column;
+    
+}
+#hero #left h3{
+    text-transform: capitalize;
+    font-size: 70px;
+    font-weight: 300;
+    margin-left: 80px;
+}
+#hero #left p{
+    color: gray;
+    font-size: small;
+    margin-left: 60px;
+}
+#hero #right img{
+    height: 400px;
+    box-shadow: 1px 1px 2px 2px rgb(225, 183, 105);
+    margin-right: 100px;
+}
+#heroImg{
+    margin-top: 80px;
+}
+#heroImg img{
+    width: 100%;
+    
+}

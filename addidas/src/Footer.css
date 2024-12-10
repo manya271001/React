@@ -1,0 +1,42 @@
+footer{
+    margin-top: 200px;
+    background-color:rgba(197, 175, 154, 0.5);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    height: 250px;
+    padding-top: 100px;
+}
+#first{
+    display: flex;
+  
+    flex-direction: column;
+}
+#first p{
+    color: gray;
+    text-align: center;
+}
+#second {
+display: flex;
+ flex-direction: column;
+}
+#second a{
+    text-decoration: none;
+    color: black;
+}
+#third {
+display: flex;
+ flex-direction: column;
+}
+#third a{
+    text-decoration: none;
+    color: black;
+}
+#fourth {
+display: flex;
+ flex-direction: column;
+}
+#fourth a{
+    text-decoration: none;
+    color: black;
+}
