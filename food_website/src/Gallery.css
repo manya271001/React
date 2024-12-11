@@ -1,0 +1,10 @@
+#gallery{
+    background-color: gainsboro;
+    height: 500px;
+    width: 1255px;
+}
+#images img{
+    height: 250px;
+    width: 250px;
+
+}

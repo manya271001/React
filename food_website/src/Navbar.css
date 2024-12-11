@@ -1,0 +1,12 @@
+#firstnav{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+#firstnav nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 90px;
+    color: gray;
+}

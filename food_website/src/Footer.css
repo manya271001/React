@@ -1,0 +1,24 @@
+footer{
+ background-color: rgba(23, 19, 19, 0.5);
+    margin-top: 50px;
+    width: 1255PX;
+    height: 240px;
+}
+#footer{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;
+    color: white;
+}
+.content h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(231, 162, 70);
+}
