@@ -1,5 +1,6 @@
 import Navbar from './Navbar'
 import Carousell from './Slider'
+import Containerr from './Containerr'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       <h1 className="text-primary">welcome to bhopal</h1>
       <Carousell />
+      <Containerr/>
     </>
   )
 }
