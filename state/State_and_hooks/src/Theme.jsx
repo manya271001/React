@@ -3,16 +3,14 @@ import './Theme.css'
 function Theme(){
     const [theme,setTheme]= useState('white')
     function change(){
-        setTheme('black')
+        setTheme(theme==="white"?"black":"white")
+        document.body.style.backgroundColor=theme
         
 
     }
 return(
     <>
-    <body >
-
-          <button onClick={change}>CHANGE</button> 
-    </body>
+        <button onClick={change}>CHANGE</button> 
  
     </>
 )

@@ -3,6 +3,7 @@ import Box from './Box'
 import Show from './Show'
 import Show2 from './Show2'
 import Theme from './Theme'
+import Counter from './Counter'
 
 function App() {
 let[count,setCounter]=useState(0)
@@ -19,13 +20,15 @@ function remove(){
 
   return (
     <>
-    <h1>{count}</h1>
+    {/* <h1>{count}</h1>
     <button onClick={add}>Increment</button>
     <button onClick={remove}>Decrement</button>
 
     <Box/>
     <Show/>
-    <Show2/>
+    <Show2/> */}
+    <Theme/>
+    <Counter/>
 
    
     </>
