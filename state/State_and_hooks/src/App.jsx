@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import Box from './Box'
-
+import Show from './Show'
+import Show2 from './Show2'
+import Theme from './Theme'
 
 function App() {
 let[count,setCounter]=useState(0)
@@ -22,6 +24,9 @@ function remove(){
     <button onClick={remove}>Decrement</button>
 
     <Box/>
+    <Show/>
+    <Show2/>
+
    
     </>
   )

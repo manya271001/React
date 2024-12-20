@@ -3,22 +3,25 @@ function Box (){
 let[cl,setColour]=useState('yellow')
 
     function red(){
-    setColour(cl='red')
+    setColour('red')
     
     }
     function blue(){
-    setColour(cl="skyblue")
+    setColour("skyblue")
     
     }
     function green(){
-    setColour(cl='green')
+    setColour('green')
    
     }
     function pink(){
-    setColour(cl='pink')
+    setColour('pink')
     
     }
     
+    
+
+
     return(
         <> 
         <div style={{height:"50vh",width:"50vw",border:"4px solid purple",marginTop:"100px",marginBottom:"50px",backgroundColor:cl}} id="box">
@@ -30,6 +33,10 @@ let[cl,setColour]=useState('yellow')
         <button onClick={green} style={{padding:"15px 30px",backgroundColor:"green",border:"none",outline:"none",borderRadius:"12px"}}></button>
         <button onClick={pink} style={{padding:"15px 30px",backgroundColor:"pink",border:"none",outline:"none",borderRadius:"12px"}}></button>
         </div>
+        <br /><br />
+ 
+      
+
         </>
     )
 }
