@@ -24,11 +24,12 @@ function remove(){
     <button onClick={add}>Increment</button>
     <button onClick={remove}>Decrement</button>
 
-    <Box/>
+    
     <Show/>
     <Show2/> */}
     <Theme/>
     <Counter/>
+    <Box/>
 
    
     </>

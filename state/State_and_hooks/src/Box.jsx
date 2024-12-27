@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 function Box (){
 let[cl,setColour]=useState('yellow')
-
+useEffect(()=>alert("color change"),[cl])
     function red(){
     setColour('red')
     
