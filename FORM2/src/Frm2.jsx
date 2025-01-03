@@ -1,5 +1,6 @@
 import { useState } from "react"
 import Login from './Login'
+import './Style.css'
 function Frm2(){
      let[inputValue,setInput]=useState({
         username:'',
@@ -35,6 +36,7 @@ return(
     <>
 
     <form onSubmit={finalSubmit}>
+      <h1>SIGN UP</h1>
           <label htmlFor="">USERNAME</label>
         <input type="text" name="username" value={inputValue.username} onChange={hinput}/>  <br /> <br />
           <label htmlFor="">PASSWORD</label>
