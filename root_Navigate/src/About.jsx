@@ -1,7 +1,7 @@
 import { useNavigate, useParams } from "react-router-dom"
 
 function About(){
-    let {name}=useParams()
+    let {name,age}=useParams()
     let nav=useNavigate()
     function contactChange(){
         nav('/contact')
@@ -9,7 +9,7 @@ function About(){
     return(
         <>
         <h2>ABOUT PAGEE</h2>
-        <h2>{name}</h2>
+        <h2>my name is {name} and my age is {age}</h2>
         <button onClick={contactChange}>Contact us</button>
         </>
     )
