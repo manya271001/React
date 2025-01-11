@@ -1,0 +1,16 @@
+#landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+#landing h2{
+    text-transform: capitalize;
+    color: rgb(19, 66, 19);
+    font-size: 40px;
+}
+#landing p{
+    text-align: center;
+    color: rgb(45, 102, 45);
+    font-size: 19px;
+}
